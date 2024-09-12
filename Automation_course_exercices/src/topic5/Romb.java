@@ -14,7 +14,7 @@ public class Romb extends FiguraGeometrica{
 
     public void setInaltime(double inaltime){
         if (inaltime<=0){
-
+            System.out.println("Inaltimea este introdusa incorect");
         }else {
             this.inaltime=inaltime;
         }
