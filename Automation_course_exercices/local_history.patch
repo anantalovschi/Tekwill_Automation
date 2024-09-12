@@ -1,0 +1,16 @@
+Index: src/topic5/Romb.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/topic5/Romb.java b/src/topic5/Romb.java
+--- a/src/topic5/Romb.java	
++++ b/src/topic5/Romb.java	(date 1726123186118)
+@@ -25,7 +25,6 @@
+         }
+     }
+ 
+-
+     @Override
+     public double returneazaAria() {
+         double aria = 0;
