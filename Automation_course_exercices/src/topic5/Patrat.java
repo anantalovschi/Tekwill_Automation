@@ -3,9 +3,6 @@ package topic5;
 public class Patrat extends FiguraGeometrica{
     private double lungimeLatura;
 
-    public double getLungimeLatura(){
-        return lungimeLatura;
-    }
     public void setLungimeLatura(double lungimeLatura){
         if(lungimeLatura<=0){
             System.out.println("Lungimea laturii patratului este introdusa gresit");
@@ -16,7 +13,7 @@ public class Patrat extends FiguraGeometrica{
 
     @Override
     public  double returneazaAria() {
-        double aria = 0;
+        double aria;
         aria=lungimeLatura*lungimeLatura;
         System.out.println("Aria patratului este "+aria);
         return aria;
@@ -24,7 +21,7 @@ public class Patrat extends FiguraGeometrica{
 
     @Override
     public  double returneazaPerimetrul() {
-        double perimetrul = 0;
+        double perimetrul;
         perimetrul=4*lungimeLatura;
         System.out.println("Perimetrul patratului este "+perimetrul);
         return perimetrul;

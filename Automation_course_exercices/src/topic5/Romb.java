@@ -4,9 +4,6 @@ public class Romb extends FiguraGeometrica{
     private double lungimeLatura;
     private double inaltime;
 
-    public double getLungimeLatura(){
-        return lungimeLatura;
-    }
     public void setLungimeLatura(double lungimeLatura){
         if (lungimeLatura<=0){
             System.out.println("Lungimea laturii este introdusa gresit");
@@ -14,9 +11,7 @@ public class Romb extends FiguraGeometrica{
             this.lungimeLatura=lungimeLatura;
         }
     }
-    public double getInaltime(){
-        return inaltime;
-    }
+
     public void setInaltime(double inaltime){
         if (inaltime<=0){
 
@@ -27,7 +22,7 @@ public class Romb extends FiguraGeometrica{
 
     @Override
     public double returneazaAria() {
-        double aria = 0;
+        double aria;
         aria=lungimeLatura*inaltime;
         System.out.println("Aria rombului este "+aria);
         return aria;
@@ -35,7 +30,7 @@ public class Romb extends FiguraGeometrica{
 
     @Override
     public double returneazaPerimetrul() {
-        double perimetru = 0;
+        double perimetru;
         perimetru=4*lungimeLatura;
         System.out.println("Perimetrul rombului este "+perimetru);
         return perimetru;
