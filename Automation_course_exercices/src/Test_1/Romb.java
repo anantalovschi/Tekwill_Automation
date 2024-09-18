@@ -1,4 +1,4 @@
-package topic5;
+package Test_1;
 
 public class Romb extends FiguraGeometrica{
     private double lungimeLatura;

@@ -1,6 +1,6 @@
-import topic5.Cerc;
-import topic5.Patrat;
-import topic5.Romb;
+import Test_1.Cerc;
+import Test_1.Patrat;
+import Test_1.Romb;
 
 public class Main {
     public static void main(String[] args) {
