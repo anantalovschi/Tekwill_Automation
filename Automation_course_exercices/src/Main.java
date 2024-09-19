@@ -4,7 +4,6 @@ import Test_1.Romb;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
         Patrat patrat= new Patrat();
         patrat.setLungimeLatura(3);
